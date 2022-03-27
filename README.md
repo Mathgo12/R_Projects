@@ -12,8 +12,8 @@ Assumptions of simple linear regression:
 2. errors have the same variance - homoscedasticity: Var[eps_i] = constant
 3. errors are independent of each other across observations: Cov[eps_i, eps_j] = 0 for all i != j
 
-slope: b1 = SSxy/SSxx
-intercept: b0 = mean(y) - b1*mean(x)
+-slope: b1 = SSxy/SSxx
+-intercept: b0 = mean(y) - b1*mean(x)
 
 
 
