@@ -1,2 +1,1 @@
-print("Hello")
-print("Second hello")
+print('This is to make sure that Github is really working')
