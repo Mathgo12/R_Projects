@@ -8,3 +8,11 @@
 qqnorm(data)
 qqline(data)
 abline(regression_model)
+
+
+Autocovariance coefficients:
+gamma_k = cov(X_t, X_t+k) -- lag in between
+
+acf(time_series, type='covariance')
+
+random process: rnorm() -- normal
