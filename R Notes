@@ -1,0 +1,10 @@
+
+-Plot time series data: plot(), abline()
+-fit linear model to a set of ordered pairs: lm(a~b)
+-assess normality of residuals: Normal QQ plot, residual plot
+-t test for slope of regression line
+  t.test(data.1, data.2, paried=TRUE, alternative='two.sided')
+  
+qqnorm(data)
+qqline(data)
+abline(regression_model)
