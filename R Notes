@@ -1,3 +1,63 @@
+--Libraries in R: 
+1) tidyr
+The word tidyr comes from the word tidy, which means clear. So the tidyr package is used to make the data' tidy'.     This package works well with dplyr. This package is an evolution of the reshape2 package.
+
+2) ggplot2
+R allows us to create graphics declaratively. R provides the ggplot package for this purpose. This package is famous for its elegant and quality graphs which sets it apart from other visualization packages.
+
+3) ggraph
+R provides an extension of ggplot known as ggraph. The limitation of ggplot is the dependency on tabular data is taken away in ggraph.
+
+4) dplyr
+R allows us to perform data wrangling and data analysis. R provides the dplyr library for this purpose. This library facilitates several functions for the data frame in R.
+
+5) tidyquant
+The tidyquant is a financial package which is used for carrying out quantitative financial analysis. This package adds to the tidyverse universe as a financial package which is used for importing, analyzing and visualizing the data.
+
+6) dygraphs
+The dygraphs package provides an interface to the main JavaScript library which we can use for charting. This package is essentially used for plotting time-series data in R.
+
+7) leaflet
+For creating interactive visualization, R provides the leaflet package. This package is an open-source JavaScript library. The world's popular websites like the New York Times, Github and Flicker, etc. are using leaflet. The leaflet package makes it easier to interact with these sites.
+
+8) ggmap
+For delineating spatial visualization, the ggmap package is used. It is a mapping package which consists of various tools for geolocating and routing.
+
+9) glue
+R provides the glue package to perform the operations of data wrangling. This package is used for evaluating R expressions which are present within the string.
+
+10) shiny
+R allows us to develop interactive and aesthetically pleasing web apps by providing a shiny package. This package provides various extensions with HTML widgets, CSS, and JavaScript.
+
+11) plotly
+The plotly package provides online interactive and quality graphs. This package extends upon the JavaScript library -plotly.js.
+
+12) tidytext
+The tidytext package provides various functions of text mining for word processing and carrying out analysis through ggplot, dplyr, and other miscellaneous tools.
+
+13) stringr
+The stringr package provides simplicity and consistency to use wrappers for the 'stringi' package. The stringi package facilitates common string operations.
+
+14) reshape2
+This package facilitates flexible reorganization and aggregation of data using melt () and decast () functions.
+
+15) dichromat
+The R dichromat package is used to remove Red-Green or Blue-Green contrasts from the colors.
+
+16) digest
+The digest package is used for the creation of cryptographic hash objects of R functions.
+
+17) MASS
+The MASS package provides a large number of statistical functions. It provides datasets that are in conjunction with the book "Modern Applied Statistics with S."
+
+18) caret
+R allows us to perform classification and regression tasks by providing the caret package. CaretEnsemble is a feature of caret which is used for the combination of different models.
+
+19) e1071
+The e1071 library provides useful functions which are essential for data analysis like Naive Bayes, Fourier Transforms, SVMs, Clustering, and other miscellaneous functions.
+
+20) sentimentr
+The sentiment package provides functions for carrying out sentiment analysis. It is used to calculate text polarity at the sentence level and to perform aggregation by rows or grouping variables.
 
 -Plot time series data: plot(), abline()
 -fit linear model to a set of ordered pairs: lm(a~b)
@@ -16,3 +76,5 @@ gamma_k = cov(X_t, X_t+k) -- lag in between
 acf(time_series, type='covariance')
 
 random process: rnorm() -- normal
+
+

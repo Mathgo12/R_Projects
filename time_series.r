@@ -37,6 +37,38 @@ plot(moving_average_process)
 acf(moving_average_process)
 
 
+## Maximum Likelihood Estimation
+
+data = read.csv('R_Projects/Train_Tickets.csv')
+hist(data$Count, breaks = 50,probability = T ,main = "Histogram of Count Variable")
+lines(density(data$Count), col="red", lwd=2)
+
+time_series = ts(data$Count, frequency=52, start=2012)
+
+age = NULL
+week_counter = 0
+for(i in 1:length(data$Datetime)){
+  age[i] = as.numeric(substring(data[i, 'Datetime'], 1, 2))
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
